@@ -13,17 +13,20 @@ st.set_page_config(
 st.markdown("""
 <style>
 .stApp { background-color: #FAF9F5; }
+h1, h2, h3, p, label, .stMarkdown, .stCaption { color: #16233B !important; }
 .score-badge {
     width: 64px; height: 64px; border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    font-size: 1.6rem; font-weight: 700; color: white;
+    font-size: 1.6rem; font-weight: 700; color: white !important;
     margin: 0 auto 12px auto;
 }
 .result-card {
     background: white; border: 1px solid #E6E1D6; border-radius: 10px;
     padding: 24px; margin-top: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
-.reason-text { color: #454C5C; font-size: 1.05rem; line-height: 1.5; }
+.result-card h3 { color: #16233B !important; }
+.result-card p { color: #16233B !important; }
+.reason-text { color: #454C5C !important; font-size: 1.05rem; line-height: 1.5; }
 </style>
 """, unsafe_allow_html=True)
 
